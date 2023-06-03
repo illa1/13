@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Smokum&family=Underdog&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+}
+section{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+h1{
+	font-size:60pt;
+	color:#66b972;
+	text-shadow: 0 0 10px black;
+	border-bottom: 8px double #66b972;
+	margin-left:20px;
+	font-family:'Lobster';
+}
+.s1{
+	background-image:url("images/africa.jpg");
+	background-size:cover;
+}
+.s2{
+	background-color:#eccb90;
+	display:flex;
+	justify-content:start;
+}
+.s21{
+	border-right: 5px dotted #66b972;
+	padding-right:7px;
+}
+.a1{
+	width: 200px;
+	height: 200px;
+	background-color:#66b972;
+	border: 5px solid #66b972;
+	border-radius:50%;
+}
+.a1 span{
+	display:block;
+	padding: 10px;
+	text-align:center;
+	font-size: 21px;
+	padding-top: 58px;
+}
+.a2{
+	width: 200px;
+	height: 200px;
+	background-color:#66b972;
+	border: 5px solid #66b972;
+	border-radius:0 50% 50% 50%;
+	align-self:center;
+}
+.a2 span{
+	display:block;
+	padding: 10px;
+	text-align:center;
+	font-size: 21px;
+	padding-top: 20px;
+}
+.a3{
+	width: 200px;
+	height: 200px;
+	background-color:#66b972;
+	border: 5px solid #66b972;
+	border-radius:0 50% 50% 50%;
+	align-self:end;
+}
+.a3 span{
+	display:block;
+	padding: 10px;
+	text-align:center;
+	font-size: 21px;
+	padding-top: 20px;
+}
+.a{
+	display:flex;
+	flex-direction:column;
+	flex-grow:1;
+}
+.s3{
+	background: linear-gradient(to bottom right, #FFFEBC, #B6CB3E);
+}
+.s3 p{
+	color:#770A13;
+	margin:2%;
+	padding:6%;
+	border-style:solid;
+	border-image-width:35px;
+	border-image-source:url("images/foot_frame.png");
+	border-image-slice:40;
+	border-image-repeat:round;
+}
+.s4{
+	background-image:url("images/bottom_fox.jpg");
+	flex-direction:column;
+	background-size:cover;
+}
+.s4 div{
+	border:8px solid #FDFFC4;
+	border-image-slice:20;
+	margin:10% 5%;
+	padding:3%;
+	align-self:start;
+	font-size:35px;
+	font-family:'Lobster';
+	color:#FDFFC4;
+}
+
+
+
+
+
